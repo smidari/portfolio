@@ -5,7 +5,7 @@ const Project = props => {
     return (
         <div className={style.project}>
             <div className={style.icon}>
-              <div><a href=''>Link</a></div>
+              <div><a href=''>View</a></div>
             </div>
             <h4>{props.title}</h4>
             <span className={style.description}>

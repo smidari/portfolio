@@ -1,0 +1,57 @@
+.wrapper {
+    height: 100vh;
+}
+
+.contacts {
+    height: 80%;
+    background-color: rgba(91, 255, 70, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container form {
+    border: 1px solid;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.container form input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.container form textarea {
+    margin-top: 5px;
+    height: 100px;
+}
+
+.container div a {
+    text-decoration: none;
+    color: black;
+}
+
+.container div {
+    background-color: #e7e7e7;
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}

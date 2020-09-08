@@ -1,0 +1,36 @@
+.remoteWork {
+    height: 25%;
+    background-color: rgba(79, 240, 250, 0.35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.info {
+    border: 1px solid;
+    width: 80%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.info div {
+    background-color: #e7e7e7;
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info h2 {
+    margin: 0;
+}
+
+.info div a {
+    text-decoration: none;
+    color: black;
+}

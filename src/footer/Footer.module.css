@@ -1,0 +1,39 @@
+.wrapper {
+    height: 10%;
+    background-color: rgba(199, 21, 133, 0.28);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 30%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container h4, .container p {
+    margin: 0;
+}
+.container p {
+    font-size: small;
+}
+.iconNetwork{
+    border: 1px solid;
+    width: 60%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.iconNetwork div{
+    height: 100%;
+    width: 10%;
+    background-color: #e7e7e7;
+}
