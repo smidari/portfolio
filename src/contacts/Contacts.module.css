@@ -1,9 +1,9 @@
 .wrapper {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .contacts {
-    height: 80%;
+    min-height: 80vh;
     background-color: rgba(91, 255, 70, 0.3);
     display: flex;
     justify-content: center;
